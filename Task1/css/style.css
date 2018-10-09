@@ -1,19 +1,46 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    min-width: 1024px; 
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;  
+    background:#f3f6f7;
+    box-shadow: 0 0 10px 20px rgba(0,0,0,0.5);
+    padding-bottom:20px; 
+}
+
+p{
+    margin: 0 20px;
+}
+
+header{
+    width: 100%;
+    background: black;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;  
 }
 
 li {
     list-style-type: none;
     display: inline;
-    background: black;
-    margin-right: -6px;/*убираем отступы между элементами списка*/
-    padding: 10px;
+    padding: 10px; 
+    /*background: black;
+    margin-right: -6px;
+    padding: 10px;*/
 }
 
 ul {
     text-align: center;
     margin: 0 auto;
-    font-size: 20px;   
+    font-size: 20px;
+    padding: 0;   
 }
 
 a{
@@ -49,3 +76,65 @@ h1, h2{
     text-align: center;
 }
 
+.text1{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.text2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #136281;
+}
+
+.text3{
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.text4{
+    text-decoration-line: line-through;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text5{
+    text-decoration-line: underline;
+    font-size: 20px;
+    color: #38cadd
+}
+
+.text6{
+    font-size: 1.3em;
+    font-family: fantasy;
+    color:#95a37d
+}
+
+.text7{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 10px;
+    color: #b4570c;
+}
+
+.text8{
+    font-size: 18px;
+    color: #446872
+}
+
+.text9{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-style: italic;
+    color: #456311;
+}
+
+.text10{
+    font-size: 130%;
+    color: #81830d;
+}
+
+.text::after{
+    content: "|after";
+}
+
+.text::before{
+    content: "before|";
+}
