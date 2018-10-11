@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Task2 form</title>
+        <link rel="stylesheet" href="css/style.css">       
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="wrapperForm">
+                <form name="myForm" enctype="text/plain" method="POST">
+                    <p class="margins"><span class="boldP">Form Action</span><span class="graySpan">_mc4wp_action</span></p>
+                    <p class="margins ">This field will allow visitors to choose whether they would like to subscribe or unsubscribe</p>
+                    <p class="boldP smallMarg">Field Label</p>
+                    <input type="" name="formAction" class="actionInput margins" value="Form Action">
+                    <p class="boldP smallMarg">Choice Type</p>
+                    <input type="" name="formChoice" class="choiceInput margins" value="Radio Buttons">
+                    <p class="boldP smallMarg">Choices</p>
+                    <div class="wrapperChoice margins">
+                        <div class="wrapperUnderChoice">
+                            <p class="smallMarg">
+                                    <label>
+                                            <input class="radio" type="radio" name="radio-test">
+                                            <span class="radio-custom"></span>               
+                                            <input class="spanRadio" type="text" value="Subscribe">                                           
+                                            <button onclick="document.getElementById('firstRadioInput').value='Subscribe';"><img src="images/x.png"></button> 
+                                            
+                                            
+                                    </label>
+                                <!--<input type="radio" name="formSubUns" class="radio" id="firstRadioInput" checked><input class="spanRadio" type="text" value="Subscribe">                      
+                                <button onclick="document.getElementById('firstRadioInput').value='Subscribe';"><img src="images/x.png"></button>-->
+                            </p>
+                            <p>
+                                    <label>
+                                            <input class="radio" type="radio" name="radio-test">
+                                            <span class="radio-custom"></span>               
+                                            <input class="spanRadio" type="text" value="Unsubscribe">                                           
+                                            <button onclick="document.getElementById('secondRadioInput').value='Unsubscribe';"><img src="images/x.png"></button>  
+                                            
+                                    </label>
+                                <!--<input type="radio" name="formSubUns" class="radio" id="secondRadioInput"><input class="spanRadio" type="text" value="Unsubscribe"> 
+                                <button onclick="document.getElementById('secondRadioInput').value='Unsubscribe';"><img src="images/x.png"></button>-->
+                            </p>
+                        </div>
+                    </div>
+                    <p class="margins">
+                        <input id="checkbox" type="checkbox"/>
+                        <label class="margins" for="checkbox">Wrap in paragraph tags?</label>
+                    </p>
+                    <button name="formSubmit" class="buttonAdd" >Add to form</button>
+                                           
+                    <!--<p class="margins"><input type="checkbox" name="formCheckbox" class="checkbox1" checked><span>Wrap in paragraph tags?</span></p>-->
+                    
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
