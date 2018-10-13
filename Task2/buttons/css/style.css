@@ -26,8 +26,18 @@ p{
 .pictureSprite{
     width: 100%;
     height: 40%;
-    background: url("../images/pattern.png");
     margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pictureSprite::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: url("../images/sprites.png");
+    transform: rotate(-6deg);
 }
 
 .wrapperForButtons{
@@ -123,8 +133,9 @@ button{
     height: 100px;
     background: rgba(255, 255, 255, 0.97);
     border: 1px solid rgb(227,227,227);
-
+    z-index: 2;
 }
+
 
 .socialIconsUnder{
     width: 380px;
