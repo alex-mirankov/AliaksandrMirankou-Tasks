@@ -81,13 +81,6 @@ input{
     width: 120px;
     font-size: 16px;
     padding-left: 5px;
-    position: relative;
-}
-
-.divRadio{
-    position: absolute;
-    top: 50%;
-    margin-top: -0.625em;
 }
 
 .smallMarg{
