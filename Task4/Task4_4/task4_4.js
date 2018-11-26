@@ -6,7 +6,7 @@ function lastNumbers(n) {
         for(var j = 1; j <= i; j++){
             result *= i;
             if(result >= limit){
-                result %= 10000000000;
+                result %= limit;
             }
         }
         summ += result;
