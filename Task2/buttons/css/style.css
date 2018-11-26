@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     padding:0;
@@ -16,7 +15,7 @@ p{
 }
 
 .mainBlock{
-    width: 1200px;
+    width: 1000px;
     height: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -31,15 +30,6 @@ p{
     position: relative;
 }
 
-.pictureSprite::before {
-    content: "";
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    background: url("../images/sprites.png");
-    transform: rotate(-6deg);
-}
-
 .wrapperForButtons{
     height: 120px;
     width: 240px;
@@ -48,7 +38,7 @@ p{
 .fields{
     border: 1px solid rgb(234,234,234);
     margin: 10px 0 10px 10px;
-    width: 1145px;
+    width: 950px;
     height: 120px;
     padding: 20px 0 0 35px;
 }
@@ -129,13 +119,16 @@ button{
 }
 
 .socialIcons{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
     width: 400px;
     height: 100px;
     background: rgba(255, 255, 255, 0.97);
     border: 1px solid rgb(227,227,227);
     z-index: 2;
+    left: 30%;   
 }
-
 
 .socialIconsUnder{
     width: 380px;
@@ -146,10 +139,115 @@ button{
     color: rgb(156,167,180);
 }
 
+.socialText{
+    margin-top: 10px;
+}
+
 .dispFlex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pictureSprite {        
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 200px;  
+    background: rgb(240, 240, 240);
+}
+
+.spriteLeftCol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 280px; 
+    padding: 12px; 
+    transform: translate(0px, 10px) rotate(-3deg);
+}
+
+.wrapperForSpriteLines{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 775px;
+    height: 200px;     
+    transform: translate(0px, -25px)  rotate(-3deg);    
+}
+
+.spriteLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 775px;
+    height: 40px;     
+}
+
+.spriteRightCol {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 280px; 
+    padding: 12px;     
+    transform: translate(0px, 7px) rotate(-3deg);
+}
+
+.pictures {
+    border-radius: 5px;
+    background-image: url("../images/sprite.png");
+    background-size: 1100%;
+    width: 25px;
+    height: 25px;
+}
+.picturesFacebook {
+    background-position: 0px -100px;   
+}
+
+.picturesDott {
+    background-position: -25px -100px;   
+}
+
+.picturesBall {
+    background-position: -50px -100px;   
+}
+
+.picturesGooglePlus {
+    background-position: -75px -100px;   
+}
+
+.picturesLinkedIn {
+    background-position: -100px -100px;   
+}
+
+.picturesP {
+    background-position: -125px -100px;   
+}
+
+.picturesRadio {
+    background-position: -150px -100px;   
+}
+
+.picturesSkype {
+    background-position: -175px -100px;   
+}
+
+.picturesTwitter {
+    background-position: -200px -100px;   
+}
+
+.picturesV {
+    background-position: -225px -100px;   
+}
+
+.picturesYouTube {
+    background-position: -250px -100px;   
 }
 
 @font-face {   
