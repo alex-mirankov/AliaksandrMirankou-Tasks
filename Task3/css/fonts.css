@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'liFont';
+    src: url('../fonts/liFont.ttf');
+}
+
+@font-face{
+    font-family: 'helloFont1';
+    src: url('../fonts/helloFont1.ttf');
+}
+
+@font-face{
+    font-family: 'welcomeFont';
+    src: url('../fonts/welcomeFont.otf');
+}
+
+@font-face{
+    font-family: 'mainFont';
+    src: url('../fonts/mainFont1.ttf');
+}

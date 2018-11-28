@@ -1,0 +1,145 @@
+.secondRow__flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myPhoto__image{
+    width: 100%;
+    height: 320px;
+}
+
+.aboutMe_backStyles{
+    background: white;  
+}
+
+.container_paddingLeft{
+    padding-left: 40px;
+}
+
+.container__header{
+    font-family: 'helloFont1';
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.aboutMe__smallH{
+    width: 50%;
+    height: 300px;
+}
+
+.container__main{
+    font-family: 'helloFont1';
+    color: rgb(228,174,88);
+}
+
+.container__content{
+    font-family: 'mainFont1';
+    color: rgb(198,184,173);
+}
+
+.myPhoto{
+    width: 25%;
+    height: 300px;
+}
+
+.mySkills_backStyles{
+    background: rgb(228,174,88);
+}
+
+.mySkills__extraSmall{
+    width: 25%;
+    height: 300px;
+}
+
+.mySkills__header{
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 40px;
+}
+
+.mySkills__main{
+    font-family: 'welcomeFont';
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 40px;
+}
+
+.progressText_fontStyles{
+    font-family: 'helloFont1';
+}
+
+.progressText__flex{
+    display: flex;
+}
+
+.progressText__percent{
+    margin: 0 0 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+.progressText__speciality{
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.progres__flex{
+    display: flex;
+}
+
+.progres__first{
+    margin-left: 40px;
+}
+
+.progres__margin{
+    margin-bottom: 20px;
+}
+
+.progres__first{
+    background-color: black;
+    height: 2px;
+}
+
+.progres__second{
+    background-color: white;
+    height: 2px;
+}
+
+.progres__first_front{
+    width: 65%;
+}
+
+.progres__second_front{
+    width: 10%;
+}
+
+.progres__first_back{
+    width: 55%;
+}
+
+.progres__second_back{
+    width: 20%;
+}
+
+.progres__first_html{
+    width: 60%;
+}
+
+.progres__second_html{
+    width: 15%;
+}
+
+.progressText__size{
+    width: 77%; 
+}
+
+.progressText_paddingLeft{
+    padding-left: 40px;
+}
+
+.mySkills__progress_paddingLeft{
+    padding-left: 40px;
+}

@@ -1,0 +1,131 @@
+.career__flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experiencesText__medium{
+    width: 50%;
+    height: auto;
+}
+
+.experiencesPhoto__medium{
+    width: 50%;
+    height: auto;
+}
+
+.experiencesPhoto__image{
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+.experiencesText__header{
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 40px;
+}
+
+.experiencesText__main{
+    font-family: 'mainFont1';
+    color: white;
+    font-size: 1rem;
+    padding-left: 40px;
+}
+
+.experiencesText_background{
+    background: rgb(233,113,76);
+}
+
+.educationText__medium{
+    width: 50%;
+    height: auto;
+}
+
+.educationPhoto__medium{
+    width: 50%;
+    height: auto;
+}
+
+.educationPhoto__image{
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+.educationText__header{
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 40px;
+}
+
+.educationText__main{
+    font-family: 'mainFont1';
+    color: white;
+    font-size: 1rem;
+    padding-left: 40px;
+}
+
+.educationText_background{
+    background: rgb(228,174,88); 
+}
+
+.description__flex{
+    display: flex;
+}
+
+.description__image{
+    margin-right: 20px;
+}
+
+.description__image_size{
+    width: 48px;
+    height: 48px;
+}
+
+.description__image_backgroundComputer{
+    display: inline-block;
+    background: url('../images/spriteIcons.png') no-repeat;
+    background-position: 0 0%; 
+    background-size: 100%;
+}
+
+.description__header{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1rem;
+}
+
+.fa-laptop_styles{
+    color: white;
+    font-size: 2.4rem;
+    margin-right: 20px;
+}
+
+.description__span{
+    font-family: 'helloFont1';
+    color: rgb(150,68,44);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.description__main{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: 'mainFont1';
+    color: white;
+    font-size: 1rem;
+}
+
+.cv{
+    padding-left: 40px;
+}
+
+.experiences_backgroundO{
+    background: rgb(228,174,88); 
+}

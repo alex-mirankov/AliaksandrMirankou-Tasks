@@ -1,0 +1,171 @@
+.contact-me__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__header{
+    padding-left: 40px;
+    font-family: 'helloFont1';
+    font-size: 1.7rem;
+    color: white
+}
+
+.form__content{
+    padding-left: 40px;
+    font-family: 'welcomeFont';
+    font-size: 0.9rem;
+    color: white
+}
+
+.form-send__input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px rgb(175,166,158) solid;
+    background: inherit;
+    font-size: 1rem;
+    font-family: 'helloFont1';
+    color: white;
+    margin-bottom: 40px;
+}
+
+.form-send__input_textarea{
+    height: 100px;
+    padding-bottom: 50px;
+}
+
+.form-send__button{
+    height: 30px;
+    width: 50%;
+    font-family: 'liFont';
+    cursor: pointer;
+    background: white;
+    border: 1px white solid;
+    border-radius: 50px;
+}
+
+.form-send{
+    padding-left: 40px;
+}
+
+.form__medium-h{
+    width: 50%;
+    height: 600px;
+}
+
+.form-send__button_hover:hover{
+    background: black;
+    color: white;
+    border: black;
+    transition: .5s;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+:-moz-placeholder{
+    color: white;
+}
+
+:-ms-input-placeholder{
+    color: white;
+}
+
+.photo-small-v__small-v{
+    width: 25%;
+    height: 600px;
+}
+
+.contact__small-v{
+    width: 25%;
+    height: 600px;
+}
+
+.form_background{
+    background: rgb(233,113,76);
+}
+
+.contact_background{
+    background: rgb(22,22,22);
+}
+
+.contact_font{
+    color: white;
+}
+
+.contact__header{
+    font-family: 'helloFont1';
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+
+.contact__description{
+    font-family: 'mainFont1';
+    font-size: 0.9rem;
+    color: rgb(175,166,158);
+    padding-left: 40px;
+}
+
+.contact__main{
+    font-family: 'helloFont1';
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+
+.telephone__content{
+    cursor: pointer;
+    font-family: 'mainFont1';
+    font-size: 0.9rem;
+    color: rgb(175,166,158);
+    text-decoration: none;
+    margin: 0 10px 20px;
+}
+
+.email__content{
+    cursor: pointer;
+    font-family: 'mainFont1';
+    font-size: 0.9rem;
+    color: orange;
+    text-decoration: none;
+    margin: 0 10px 20px;
+}
+
+.website__content{
+    cursor: pointer;
+    font-family: 'mainFont1';
+    font-size: 0.9rem;
+    color: orange;
+    text-decoration: none;
+    margin: 0 10px 20px;
+}
+
+.photo-small-v__image{
+    width: 100%;
+    height: 600px;
+}
+
+.telephone__content{
+    display: flex;
+}
+
+.telephone__margin{
+    margin-left: 40px;
+}
+
+.email__content{
+    display: flex;
+}
+
+.email__margin{
+    margin-left: 40px;
+}
+
+.website__content{
+    display: flex;
+    margin-left: 40px;
+}
+
+.website__margin{
+    margin-left: 40px;
+}

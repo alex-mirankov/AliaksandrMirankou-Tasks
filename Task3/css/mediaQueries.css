@@ -1,0 +1,515 @@
+@media (min-width: 320px) and (max-width: 400px){
+    .main-photo{
+        width: 100%;
+        height: 400px;
+    }
+    .main-photo__image{
+        width: 100%;
+        height: 400px;
+    }
+    .main-photo__name{
+        top: 10%;
+    }
+    .welcome-inf{
+        width: 100%;
+        height: 700px;
+    }
+    .navigation__list{
+        display: none;
+    }
+    .burger-menu__display{
+        display: block;
+    }
+    .content{
+        padding-top: 50px;
+    }
+    .about-me__small-h{
+        width: 100%;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+    .my-photo{
+        width: 50%;
+        height: 300px;
+    }
+    .my-skills{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-interface{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-media{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-mobile{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-coding{
+        width: 50%;
+        height: 300px;
+    }
+    .experiences-text{
+        width: 100%;
+        height: auto;
+    }
+    .experiences-photo{
+        width: 100%;
+        height: auto;
+    }
+    .education-text{
+        width: 100%;
+        height: auto;
+    }
+    .education-photo{
+        width: 100%;
+        height: auto;
+    }
+    .form{
+        width: 100%;
+        height: 600px;
+    }
+    .form__content{
+        padding-right: 5px;
+    }
+    .photo-small-v{
+        width: 50%;
+        height: 400px;
+    }
+    .photo-small-v__image{
+        width: 100%;
+        height: 400px;
+    }
+    .contact{
+        width: 50%;
+        height: 400px;
+    }
+    .contact__header{
+        padding-right: 10px;
+    }
+    .footer-page{
+        height: 200px;
+    }
+}
+@media (min-width: 401px) and (max-width: 600px){
+    .main-photo{
+        width: 100%;
+        height: 400px;
+    }
+    .main-photo__image{
+        width: 100%;
+        height: 400px;
+    }
+    .main-photo__name{
+        top: 10%;
+    }
+    .welcome-inf{
+        width: 100%;
+        height: auto;
+    }
+    .burger-menu__display{
+        display: block;
+    }
+    .navigation__list{
+        display: none;
+    }
+    .content__paddings{
+        padding-top: 50px;
+    }
+    .about-me__small-h{
+        width: 100%;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+    .my-photo{
+        width: 50%;
+        height: 300px;
+    }
+    .my-skills{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-interface{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-media{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-mobile{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-coding{
+        width: 50%;
+        height: 300px;
+    }
+    .experiences-text{
+        width: 100%;
+        height: auto;
+    }
+    .experiences-photo{
+        width: 100%;
+        height: auto;
+    }
+    .education-text{
+        width: 100%;
+        height: auto;
+    }
+    .education-photo{
+        width: 100%;
+        height: auto;
+    }
+    .form{
+        width: 100%;
+        height: 600px;
+    }
+    .form__content{
+        padding-right: 5px;
+    }
+    .photo-small-v{
+        width: 50%;
+        height: 400px;
+    }
+    .photo-small-v__image{
+        width: 100%;
+        height: 400px;
+    }
+    .contact{
+        width: 50%;
+        height: 400px;
+    }
+    .contact__header{
+        padding-right: 10px;
+    }
+    .footer-page{
+        height: 200px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px){
+    .main-photo{
+        width: 100%;
+        height: 500px;
+    }
+    .main-photo__image{
+        width: 100%;
+        height: 500px;
+    }
+    .main-photo__name{
+        top: 10%;
+    }
+    .welcome-inf{
+        width: 100%;
+        height: 700px;
+    }
+    .burger-menu__display{
+        display: block;
+    }
+    .navigation__list{
+        display: none;
+    }
+    .content__paddings{
+        padding-top: 50px;
+    }
+    .about-me__small-h{
+        width: 100%;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+    .my-photo{
+        width: 50%;
+        height: 300px;
+    }
+    .my-skills{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-interface{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-media{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-mobile{
+        width: 50%;
+        height: 300px;
+    }
+    .tile-coding{
+        width: 50%;
+        height: 300px;
+    }
+    .experiences-text{
+        width: 100%;
+        height: auto;
+    }
+    .experiences-photo{
+        width: 100%;
+        height: auto;
+    }
+    .education-text{
+        width: 100%;
+        height: auto;
+    }
+    .education-photo{
+        width: 100%;
+        height: auto;
+    }
+    .form{
+        width: 100%;
+        height: 600px;
+    }
+    .form__content{
+        padding-right: 5px;
+    }
+    .photo-small-v{
+        width: 50%;
+        height: 500px;
+    }
+    .photo-small-v__image{
+        width: 100%;
+        height: 500px;
+    }
+    .contact{
+        width: 50%;
+        height: 500px;
+    }
+    .contact__header{
+        padding-right: 10px;
+    }
+    .footer-page{
+        height: 200px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .main-photo{
+        width: 50%;
+        height: 500px;
+    }
+    .main-photo__image{
+        width: 100%;
+        height: 500px;
+    }
+    .welcome-inf{
+        width: 50%;
+        height: 500px;
+    }
+    .main-photo__name{
+        top: 10%;
+    }
+    .burger-menu__display{
+        display: block;
+    }
+    .navigation__list{
+        display: none;
+    }
+    .content__paddings{
+        padding-top: 50px;
+    }
+    .about-me__small-h{
+        width: 100%;
+        height: 300px;
+    }
+    .my-skills__main{
+        font-size: 1rem;
+    }
+    .container__main{
+        margin: 18px 28px 18px 0;
+    }
+    .my-photo{
+        width: 50%;
+        height: 400px;
+    }
+    .my-photo__image{
+        width: 100%;
+        height: 400px;
+    }
+    .my-skills{
+        width: 50%;
+        height: 400px;
+    }
+    .tile-interface{
+        width: 50%;
+        height: 300px;
+        font-size: 1.3rem;
+    }
+    .tile-media{
+        width: 50%;
+        height: 300px;
+        font-size: 1.3rem;
+    }
+    .tile-mobile{
+        width: 50%;
+        height: 300px;
+        font-size: 1.3rem;
+    }
+    .tile-coding{
+        width: 50%;
+        height: 300px;
+        font-size: 1.3rem;
+    }
+    .tile-interface__main{
+        font-size: 1.1rem;
+    }
+    .tile-media__main{
+        font-size: 1.1rem;
+    }
+    .tile-mobile__main{
+        font-size: 1.1rem;
+    }
+    .tile-coding__main{
+        font-size: 1.1rem;
+    }
+    .description__main_font{
+        font-size: 1rem;
+    }
+    .experiences-text{
+        width: 50%;
+        height: auto;
+    }
+    .experiences-photo{
+        width: 50%;
+        height: auto;
+    }
+    .experiences-photo__image{
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+    .experiences-text__main{
+        font-size: 1rem;
+    }
+    .education-text{
+        width: 50%;
+        height: auto;
+    }
+    .education-photo{
+        width: 50%;
+        height: auto;
+    }
+    .education-photo__image{
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+    .education-text__main{
+        font-size: 1rem;
+    }
+    .form{
+        width: 50%;
+        height: 600px;
+    }
+    .form__content{
+        padding-right: 5px;
+    }
+    .photo-small-v{
+        width: 25%;
+        height: 600px;
+    }
+    .photo-small-v__image{
+        width: 100%;
+        height: 600px;
+    }
+    .contact{
+        width: 25%;
+        height: 600px;
+    }
+    .contact__header{
+        padding-right: 10px;
+    }
+    .footer-page{
+        height: 200px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 4000px){
+    .body__styles{
+        font-size: 25px;
+    }
+    .main-photo{
+        width: 50%;
+        height: 700px;
+    }
+    .main-photo__image{
+        width: 100%;
+        height: 700px;
+    }
+    .welcome-inf{
+        width: 50%;
+        height: 700px;
+    }
+    .about-me__small-h{
+        width: 50%;
+        height: 300px;
+    }
+    .my-photo{
+        width: 25%;
+        height: 300px;
+    }
+    .my-skills{
+        width: 25%;
+        height: 320px;
+    }
+    .tile-interface{
+        width: 25%;
+        height: 300px;
+    }
+    .tile-media{
+        width: 25%;
+        height: 300px;
+    }
+    .tile-mobile{
+        width: 25%;
+        height: 300px;
+    }
+    .tile-coding{
+        width: 25%;
+        height: 300px;
+    }
+    .experiences-text{
+        width: 50%;
+        height: 320px;
+    }
+    .experiences-photo{
+        width: 50%;
+        height: 320px;
+    }
+    .education-text{
+        width: 50%;
+        height: 320px;
+    }
+    .education-photo{
+        width: 50%;
+        height: 320px;
+    }
+    .form{
+        width: 50%;
+        height: 600px;
+    }
+    .photo-small-v{
+        width: 25%;
+        height: 600px;
+    }
+    .form__content_fonts-styles{
+        font-size: 1rem;
+    }
+    .photo-small-v__image{
+        width: 100%;
+        height: 600px;
+    }
+    .contact{
+        width: 25%;
+        height: 600px;
+    }
+    .footer-page{
+        width: 100%;
+        height: 400px;
+    }
+}
