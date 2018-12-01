@@ -1,0 +1,12 @@
+<div class="container">
+    <div>
+        <input type="text" #inputData placeholder="Enter task">
+        <button class="buttonAdd button" (click)="addItem(inputData.value)">Add</button>
+    </div>
+    <ul>
+        <li *ngFor = "let inputData of arrayOfItems">
+            <button class="buttonDel button" (click)="deleteItem(inputData)">-</button>
+            {{ inputData }}
+        </li>
+    </ul>
+</div>
