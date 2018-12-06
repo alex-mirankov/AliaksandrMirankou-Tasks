@@ -1,0 +1,186 @@
+.firstRow__flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainPhoto__extraLarge{
+    width: 50%;
+    height: 700px;
+}
+
+.mainPhoto__position{
+    position: relative;
+}
+
+.mainPhoto_backPhoto{
+    background: url("../images/firstPict1.jpg") no-repeat;
+    background-size: cover; 
+}
+
+.mainPhoto__name{
+    font-size: 1.3rem;
+    font-family: 'mainFont1';
+    font-weight: 900;
+    position: absolute;
+    left: 30%;
+}
+
+.main__p_bold{
+    font-weight: 900;
+}
+
+.navigation__link{
+    cursor: pointer;
+    color: rgb(175,166,158);
+    text-decoration: none;
+}
+
+.navigation__link:hover{
+    color:rgb(227,203,160);
+    transition: .5s;
+}
+
+.welcomeInf__extraLarge{
+    width: 50%;
+    height: 700px;
+}
+
+.welcomeInf_backStyles{
+    background: rgb(240,226,215);
+}
+
+.navigation_font{
+    font-family: 'liFont';
+}
+
+navigation__list{
+    text-align: center;
+}
+
+.navigation__li{
+    display: inline;
+    list-style-type: none;
+    padding: 10px; 
+}
+
+.mainPhoto__image{
+    height: 700px;
+    width: 100%;
+}
+
+.content__paddings{
+    padding: 100px 40px 40px 40px;
+}
+
+.main__p_helloFont{
+    font-family: 'helloFont1';
+    font-style: normal;
+    color:rgb(124,110,99);
+    font-size: 1.8rem;
+}
+
+.main__p_welcomeFont{
+    font-family: 'welcomeFont';
+    font-style: normal;
+    color: rgb(198,184,173);
+    font-size: 0.7rem;
+}
+
+.main__p_mainFont{
+    font-family: 'mainFont1';
+    font-style: normal;
+    color: rgb(198,184,173);
+    font-size: 1rem;
+}
+
+.footer__button{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border: 3px solid black;
+    background: inherit;
+    color: black;
+    font-family: 'liFont';
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.footer__button_hover:hover{
+    background: black;
+    color:white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.burgerMenu__size{
+    height: 55px;
+    width: 100%;
+}
+
+.burgerMenu__display{
+    display: none;
+}
+
+.burgerMenu__position{
+    position: fixed;
+}
+
+ .burgerMenu_backStyles{
+    background-color: #333;
+    z-index: 99;
+    opacity: 0.9;
+}
+
+.burgerNav {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+
+.burgerNav__item {
+    display: block;
+    font-family: 'liFont';
+    padding-top: 10px;
+    height: 30px;
+    font-weight: bold;
+    color: rgb(175,166,158);
+    font-size: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(240,226,215);
+}
+
+.burgerNav__item:hover {
+    color:rgb(227,203,160);
+    transition: .5s;
+}
+
+.burgerNav__item:active {
+    color:rgb(236, 198, 128);
+}
+
+.burgerMenu__item {
+    display: block;
+    width: 25px;
+    height: 23px;
+    cursor: pointer;
+    color: transparent;
+    background: url("../images/menu.png") no-repeat;
+    margin: 15px 0 0 10px;
+    z-index: 1;
+}
+
+.burgerMenu__checkbox{
+    display: none;
+}
+
+.burgerMenu__checkbox:checked + .burgerMenu__item{
+    background-image: url("../images/cross.png");
+}
+
+.burgerMenu__checkbox:checked ~ .burgerNav{
+    display: block;
+}

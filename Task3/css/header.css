@@ -1,0 +1,186 @@
+.header__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-photo__extra-large{
+    width: 50%;
+    height: 700px;
+}
+
+.main-photo__position{
+    position: relative;
+}
+
+.main-photo_back-photo{
+    background: url("../images/firstPict1.jpg") no-repeat;
+    background-size: cover; 
+}
+
+.main-photo__name{
+    font-size: 1.3rem;
+    font-family: 'mainFont1';
+    font-weight: 900;
+    position: absolute;
+    left: 30%;
+}
+
+.main__span{
+    font-weight: 900;
+}
+
+.navigation__link{
+    cursor: pointer;
+    color: rgb(175,166,158);
+    text-decoration: none;
+}
+
+.navigation__link:hover{
+    color:rgb(227,203,160);
+    transition: .5s;
+}
+
+.welcome-inf__extra-large{
+    width: 50%;
+    height: 700px;
+}
+
+.welcome-inf_back-styles{
+    background: rgb(240,226,215);
+}
+
+.navigation_font{
+    font-family: 'liFont';
+}
+
+navigation__list{
+    text-align: center;
+}
+
+.navigation__li{
+    display: inline;
+    list-style-type: none;
+    padding: 10px; 
+}
+
+.main-photo__image{
+    height: 700px;
+    width: 100%;
+}
+
+.content{
+    padding: 100px 40px 40px 40px;
+}
+
+.main__p_hello-font{
+    font-family: 'helloFont1';
+    font-style: normal;
+    color:rgb(124,110,99);
+    font-size: 1.8rem;
+}
+
+.main__p_welcome-font{
+    font-family: 'welcomeFont';
+    font-style: normal;
+    color: rgb(198,184,173);
+    font-size: 0.7rem;
+}
+
+.main__p_main-font{
+    font-family: 'mainFont1';
+    font-style: normal;
+    color: rgb(198,184,173);
+    font-size: 1rem;
+}
+
+.footer__button{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border: 3px solid black;
+    background: inherit;
+    color: black;
+    font-family: 'liFont';
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.footer__button_hover:hover{
+    background: black;
+    color:white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.burger-menu__size{
+    height: 55px;
+    width: 100%;
+}
+
+.burger-menu__display{
+    display: none;
+}
+
+.burger-menu__position{
+    position: fixed;
+}
+
+.burger-menu_back-styles{
+    background-color: #333;
+    z-index: 99;
+    opacity: 0.9;
+}
+
+.burger-nav {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+
+.burger-nav__item {
+    display: block;
+    font-family: 'liFont';
+    padding-top: 10px;
+    height: 30px;
+    font-weight: bold;
+    color: rgb(175,166,158);
+    font-size: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(240,226,215);
+}
+
+.burger-nav__item:hover {
+    color:rgb(227,203,160);
+    transition: .5s;
+}
+
+.burger-nav__item:active {
+    color:rgb(236, 198, 128);
+}
+
+.burger-menu__item {
+    display: block;
+    width: 25px;
+    height: 23px;
+    cursor: pointer;
+    color: transparent;
+    background: url("../images/menu.png") no-repeat;
+    margin: 15px 0 0 10px;
+    z-index: 1;
+}
+
+.burger-menu__checkbox{
+    display: none;
+}
+
+.burger-menu__checkbox:checked + .burger-menu__item{
+    background-image: url("../images/cross.png");
+}
+
+.burger-menu__checkbox:checked ~ .burger-nav{
+    display: block;
+}

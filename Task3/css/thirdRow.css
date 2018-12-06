@@ -1,0 +1,58 @@
+.thirdRow__flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile__extraSmall{
+    width: 25%;
+    height: 300px;
+}
+
+.tile_fontStyles{
+    font-family: 'mainFont1';
+    color: white;
+}
+
+.tile__colorTextB{
+    color: black;
+}
+
+.tile__backgroundO{
+    background: rgb(228,174,88); 
+}
+
+.tile__backgroundR{
+    background: rgb(233,113,76); 
+}
+
+.tile__backgroundB{
+    background: rgb(22,22,22); 
+}
+
+.tile__backgroundW{
+    background: white; 
+}
+
+.tile_textAlign{
+    text-align: center;
+}
+
+.tile_paddingTop{
+    padding-top: 30px;
+}
+.tile__main{
+    margin: 20px;
+}
+
+.tile__icon{
+    margin-bottom: 20px;
+}
+
+.tile__icon_size{
+    width: 48px;
+    height: 48px;
+}
+
+.fas_size{
+    font-size: 1.8rem;
+}

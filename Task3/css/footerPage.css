@@ -1,0 +1,47 @@
+.social__flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footerPage__large{
+    width: 100%;
+    height: 400px;
+}
+
+.footerPage_background{
+    color: white;
+}
+
+.footerPage__position{
+    position: relative;
+}
+
+.socialContainer__header{
+    color: rgb(199,199,199);
+}
+
+.socialContainer__link{
+    cursor: pointer;
+    color: orange;
+    text-decoration: none;
+}
+
+.socialContainer__position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.social__link{
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.fab_styles{
+    font-size: 1.3rem;
+    color: black;
+}

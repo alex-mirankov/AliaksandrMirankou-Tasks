@@ -1,0 +1,57 @@
+.large-photo__large{
+    width: 100%;
+    height: 400px;
+}
+
+.large-photo_background{
+    background: url('../images/fifthPict.jpg') no-repeat;
+    background-size: cover;
+}
+
+.block-opacity__large{
+    width: 100%;
+    height: 400px;
+}
+
+.fa-star_size{
+    font-size: 2.4rem;
+}
+
+.container__large-text{
+    font-family: 'helloFont1';
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container__small-text {
+    font-family: 'helloFont1';
+    color: rgb(175,166,158);
+}
+
+.block-opacity_background{
+    background-color: rgba(22,22,22,0.7)
+}
+
+.block-opacity_font{
+    text-align: center;
+}
+
+.block-opacity__position{
+    position: relative;
+}
+
+.container__position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.container__size{
+    width: 80%;
+}
+
+.container_font{
+    color: white;
+}

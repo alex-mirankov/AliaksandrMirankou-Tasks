@@ -1,0 +1,115 @@
+.career__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experiences-text__medium{
+    width: 50%;
+    height: auto;
+}
+
+.experiences-photo__medium{
+    width: 50%;
+    height: auto;
+}
+
+.experiences-photo__image{
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+.experiences-text__header{
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 40px;
+}
+
+.experiences-text__main{
+    font-family: 'mainFont1';
+    color: white;
+    font-size: 1rem;
+    padding-left: 40px;
+}
+
+.experiences-text_background{
+    background: rgb(233,113,76);
+}
+
+.education-text__medium{
+    width: 50%;
+    height: 320px;
+}
+
+.education-photo__medium{
+    width: 50%;
+    height: auto;
+}
+
+.education-photo__image{
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+.education-text__header{
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1.7rem;
+    padding-left: 40px;
+}
+
+.education-text__main{
+    font-family: 'mainFont1';
+    color: white;
+    font-size: 1rem;
+    padding-left: 40px;
+}
+
+.education-text_background{
+    background: rgb(228,174,88);
+}
+
+.description__content{
+    display: flex;
+}
+
+.description__image{
+    margin-right: 20px;
+}
+
+.description__header{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1rem;
+}
+
+.fa-laptop_styles{
+    color: white;
+    font-size: 2.4rem;
+    margin-right: 20px;
+}
+
+.description__span{
+    font-family: 'helloFont1';
+    color: rgb(150,68,44);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.description__main{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: 'mainFont1';
+    color: white;
+    font-size: 1rem;
+}
+
+.cv{
+    padding-left: 40px;
+}

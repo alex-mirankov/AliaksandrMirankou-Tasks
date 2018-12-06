@@ -1,0 +1,141 @@
+.personal-info__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-photo__image{
+    width: 100%;
+    height: 320px;
+}
+
+.about-me_back-styles{
+    background: white;
+}
+
+.container_padding{
+    padding-left: 40px;
+}
+
+.container__header{
+    font-family: 'helloFont1';
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.about-me__small-h{
+    width: 50%;
+    height: 300px;
+}
+
+.container__main{
+    font-family: 'helloFont1';
+    color: rgb(228,174,88);
+}
+
+.container__content{
+    font-family: 'mainFont1';
+    color: rgb(198,184,173);
+}
+
+.my-photo{
+    width: 25%;
+    height: 300px;
+}
+
+.my-skills_back-styles{
+    background: rgb(228,174,88);
+}
+
+.my-skills__extra-small{
+    width: 25%;
+    height: 300px;
+}
+
+.my-skills__header{
+    font-family: 'helloFont1';
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 40px;
+}
+
+.my-skills__main{
+    font-family: 'welcomeFont';
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 40px;
+}
+
+.progress-text_font-styles{
+    font-family: 'helloFont1';
+}
+
+.progress-text__content{
+    display: flex;
+}
+
+.progress-text__percent{
+    margin: 0 0 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+.progress-text__speciality{
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.progres__content{
+    display: flex;
+}
+
+.progres__first{
+    margin-left: 40px;
+}
+
+.progres__margin{
+    margin-bottom: 20px;
+}
+
+.progres__first{
+    background-color: black;
+    height: 2px;
+}
+
+.progres__second{
+    background-color: white;
+    height: 2px;
+}
+
+.progres__first_front{
+    width: 65%;
+}
+
+.progres__second_front{
+    width: 10%;
+}
+
+.progres__first_back{
+    width: 55%;
+}
+
+.progres__second_back{
+    width: 20%;
+}
+
+.progres__first_html{
+    width: 60%;
+}
+
+.progres__second_html{
+    width: 15%;
+}
+
+.progress-text__size{
+    width: 77%; 
+}
+
+.progress-text{
+    padding-left: 40px;
+}

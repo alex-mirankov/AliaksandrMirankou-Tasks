@@ -1,0 +1,75 @@
+.sixthRow__flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.largePhoto__large{
+    width: 100%;
+    height: 400px;
+}
+
+.largePhoto_background{
+    background: url('../images/fifthPict.jpg') no-repeat;
+    background-size: cover;
+}
+
+.blockOpacity__large{
+    width: 100%;
+    height: 400px;
+}
+
+.fa-star_size{
+    font-size: 2.4rem;
+}
+
+.blockOpacity__header{
+    font-family: 'helloFont1';
+    font-size: 1.2rem;
+    color: white;
+}
+
+.blockOpacity__content{
+    font-family: 'helloFont1';
+    color: rgb(175,166,158);
+}
+
+.blockOpacity_background{
+    background-color: rgba(22,22,22,0.7)
+}
+
+.blockOpacity_textAlign{
+    text-align: center;
+}
+
+.blockOpacity__position{
+    position: relative;
+}
+
+.container__position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.container__size{
+    width: 80%;
+}
+
+.container_font{
+    color: white;
+}
+
+.container__image_size{
+    max-width: 100%;
+    width: 48px;
+    height: 48px;
+}
+
+.container__image_backgroundStar{
+    display: inline-block;
+    background: url('../images/spriteIcons.png') no-repeat;
+    background-position: 0 52.173913%; 
+    background-size: 100%;     
+}

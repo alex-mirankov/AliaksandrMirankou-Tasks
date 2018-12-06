@@ -1,0 +1,100 @@
+.cards__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile-interface__extra-small{
+    width: 25%;
+    height: 300px;
+}
+
+.tile-interface_font-styles{
+    font-family: 'mainFont1';
+    color: white;
+    text-align: center;
+}
+
+.tile-interface_background{
+    background: rgb(228,174,88);
+}
+
+.tile-interface{
+    padding-top: 30px;
+}
+
+.tile-interface__main{
+    margin: 20px;
+}
+
+.tile-media__extra-small{
+    width: 25%;
+    height: 300px;
+}
+
+.tile-media_font-styles{
+    font-family: 'mainFont1';
+    color: white;
+    text-align: center;
+}
+
+.tile-media_background{
+    background: rgb(233,113,76);
+}
+
+.tile-media{
+    padding-top: 30px;
+}
+
+.tile-media__main{
+    margin: 20px;
+}
+
+.tile-mobile__extra-small{
+    width: 25%;
+    height: 300px;
+}
+
+.tile-mobile_font-styles{
+    font-family: 'mainFont1';
+    color: white;
+    text-align: center;
+}
+
+.tile-mobile_background{
+    background: rgb(22,22,22);
+}
+
+.tile-mobile{
+    padding-top: 30px;
+}
+
+.tile-media__main{
+    margin: 20px;
+}
+
+.tile-coding__extra-small{
+    width: 25%;
+    height: 300px;
+}
+
+.tile-coding_font-styles{
+    font-family: 'mainFont1';
+    color: black;
+    text-align: center;
+}
+
+.tile-coding_background{
+    background: white;
+}
+
+.tile-coding{
+    padding-top: 30px;
+}
+
+.tile-coding__main{
+    margin: 20px;
+}
+
+.fas_size{
+    font-size: 1.8rem;
+}
