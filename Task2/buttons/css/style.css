@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding:0;
+    background: gainsboro;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    min-width: 1024px;
+    max-width: 1920px;    
+}
+
+.mainBlock{
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white; 
+}
+
+.pictureSprite{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapperForButtons{
+    height: 120px;
+    width: 240px;
+}
+
+.fields{
+    border: 1px solid rgb(234,234,234);
+    margin: 10px 0 10px 10px;
+    width: 950px;
+    height: 120px;
+    padding: 20px 0 0 35px;
+}
+
+button{
+    border: none;
+    border-radius: 5px; 
+}
+
+.marginBott{
+    margin-bottom: 10px;
+}
+
+.pink{
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(to top, rgb(226,35,147), rgb(232,83,170));
+    font-size: 24px;
+    font-weight: bolder;
+    box-shadow: 0 2px 1px 0 rgb(176,207,188);
+}
+
+.green{
+    width: 80px;
+    height: 25px;
+    background: linear-gradient(to top, rgb(158,201,27), rgb(172,205,68));
+    font-size: 11px;
+    box-shadow: 0 2px 1px 0 rgb(149,156,125);
+}
+
+.greenBlack{
+    box-shadow: 0 2px 1px 0 rgb(38,35,48);
+}
+
+.blue{
+    width: 70px;
+    height: 20px;
+    background: linear-gradient(to top, rgb(66,144,230), rgb(87,156,234));
+    font-size: 11px;
+    box-shadow: 0px 2px 1px 0 rgb(190,180,168);
+}
+
+.red{
+    width: 70px;
+    height: 20px;
+    background: linear-gradient(to top, rgb(233,63,63), rgb(240,92,92));
+    font-size: 11px;
+    box-shadow: 0px 2px 1px 0 rgb(168,190,190);
+}
+
+.orange{
+    width: 80px;
+    height: 20px;
+    background: linear-gradient(to top, rgb(254,109,25), rgb(255,129,57));
+    font-size: 10px;
+    box-shadow: 0px 2px 1px 0 rgb(165,173,177);
+}
+
+.yellow{
+    width: 80px;
+    height: 20px;
+    background: linear-gradient(to top, rgb(254,189,44), rgb(255,201,76));
+    font-size: 10px;
+    box-shadow: 0px 2px 1px 0 rgb(165,168,176);
+}
+
+.colorW{
+    color: white;
+    font-family: ArialBold;
+}
+
+.fieldsBlack{
+    background: rgb(51,51,51);
+}
+
+.shadowBlack{
+    box-shadow: 0 2px 1px 0 rgb(47,31,41);
+}
+
+.socialIcons{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.97);
+    border: 1px solid rgb(227,227,227);
+    z-index: 2;
+    left: 30%;   
+}
+
+.socialIconsUnder{
+    width: 380px;
+    height: 80px;
+    border: 4px solid rgb(0,0,0);
+    font-family: P22, cursive;
+    font-size: 50px;
+    color: rgb(156,167,180);
+}
+
+.socialText{
+    margin-top: 10px;
+}
+
+.dispFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictureSprite {        
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 200px;  
+    background: rgb(240, 240, 240);
+}
+
+.spriteLeftCol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 280px; 
+    padding: 12px; 
+    transform: translate(0px, 10px) rotate(-3deg);
+}
+
+.wrapperForSpriteLines{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 775px;
+    height: 200px;     
+    transform: translate(0px, -25px)  rotate(-3deg);    
+}
+
+.spriteLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 775px;
+    height: 40px;     
+}
+
+.spriteRightCol {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 280px; 
+    padding: 12px;     
+    transform: translate(0px, 7px) rotate(-3deg);
+}
+
+.pictures {
+    border-radius: 5px;
+    background-image: url("../images/sprite.png");
+    background-size: 1100%;
+    width: 25px;
+    height: 25px;
+}
+.picturesFacebook {
+    background-position: 0px -100px;   
+}
+
+.picturesDott {
+    background-position: -25px -100px;   
+}
+
+.picturesBall {
+    background-position: -50px -100px;   
+}
+
+.picturesGooglePlus {
+    background-position: -75px -100px;   
+}
+
+.picturesLinkedIn {
+    background-position: -100px -100px;   
+}
+
+.picturesP {
+    background-position: -125px -100px;   
+}
+
+.picturesRadio {
+    background-position: -150px -100px;   
+}
+
+.picturesSkype {
+    background-position: -175px -100px;   
+}
+
+.picturesTwitter {
+    background-position: -200px -100px;   
+}
+
+.picturesV {
+    background-position: -225px -100px;   
+}
+
+.picturesYouTube {
+    background-position: -250px -100px;   
+}
+
+@font-face {   
+    font-family: ArialBold; 
+    src: url("../fonts/ArialBold.ttf"); 
+}
+
+@font-face {   
+    font-family: P22; 
+    src: url("../fonts/P22.ttf"); 
+} 
+
