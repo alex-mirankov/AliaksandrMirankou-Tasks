@@ -3,6 +3,7 @@ var webpack = require('webpack');
 var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var MiniCssExtractPlugin = require("mini-css-extract-plugin");
+var LiveReloadPlugin = require('webpack-livereload-plugin');
 module.exports = {
     entry: {
         'polyfills': './src/polyfills.ts',
@@ -63,6 +64,7 @@ module.exports = {
       filename: "[name].css"
     }),
     new UglifyJSPlugin(),
+    new LiveReloadPlugin(options),
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.LoaderOptionsPlugin({
       htmlLoader: {
