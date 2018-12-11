@@ -64,7 +64,7 @@ module.exports = {
       filename: "[name].css"
     }),
     new UglifyJSPlugin(),
-    new LiveReloadPlugin(options),
+    new LiveReloadPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.LoaderOptionsPlugin({
       htmlLoader: {
