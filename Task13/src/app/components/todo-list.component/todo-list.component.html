@@ -5,6 +5,7 @@
 
   <ol cdkDropList class="example-list" (cdkDropListDropped)="drop($event) ">
     <li class="example-box" *ngFor="let inputData of arrayOfItems" cdkDrag>
+      <span>{{arrayOfItems.indexOf(inputData)+1}}</span>
       <input type="text" value="{{inputData}}" id="edit-input">
       <button class="button buttonDel" (click)="removeListItem(inputData)">-</button>
     </li>
