@@ -7,6 +7,4 @@ import { FormsModule }   from '@angular/forms';
     styleUrls: ['app.component.css']
 })
 
-export class AppComponent {
-
-}
+export class AppComponent {}

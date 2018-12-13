@@ -2,9 +2,10 @@
     <input type="text" #inputData placeholder="Enter task">
     <button class="buttonAdd button" (click)="addToList(inputData.value)">Add</button>
 </div>
-<ol>
-    <li *ngFor = "let inputData of arrayOfItems">
-        <button class="buttonDel button" (click)="removeListItem(inputData)">-</button>
-        {{ inputData }}
+
+  <ol cdkDropList class="example-list" (cdkDropListDropped)="drop($event) ">
+    <li class="example-box" *ngFor="let inputData of arrayOfItems" cdkDrag>
+      <input type="text" value="{{inputData}}" id="edit-input">
+      <button class="button buttonDel" (click)="removeListItem(inputData)">-</button>
     </li>
-</ol>
+  </ol>
